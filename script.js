@@ -532,7 +532,7 @@ checkoutBtn.addEventListener("click", function () {
     *Pedido de Cliente:*
     Nome: ${nomeinput.value}
     Forma de Pagamento: ${payment.value}
-    Endereço: ${addressInput.value}, ${neighborhood.value}
+    Endereço: ${addressInput.value}
     
     *Itens do Carrinho:*
     ${cartItems}
