@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f6f7f8;
+}
+
+/* styles.css */
+.img-custom-size {
+    width: 10rem; /* Tamanho padrão */
+    height: 10rem;
+  }
+  
+  @media (min-width: 640px) { /* Para telas pequenas e acima */
+    .img-custom-size {
+      width: 12rem;
+      height: 12rem;
+    }
+  }
+  
+  @media (min-width: 768px) { /* Para telas médias e acima */
+    .img-custom-size {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+  
+  @media (min-width: 1024px) { /* Para telas grandes e acima */
+    .img-custom-size-burguer {
+      width: 20rem;
+      height: 14rem;
+    }
+  }
+  
+  .img-custom-size-burguer {
+    width: 10rem; /* Tamanho padrão */
+    height: 10rem;
+  }
+  
+  @media (min-width: 640px) { /* Para telas pequenas e acima */
+    .img-custom-size-burguer {
+      width: 12rem;
+      height: 12rem;
+    }
+  }
+  
+  @media (min-width: 768px) { /* Para telas médias e acima */
+    .img-custom-size-burguer {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
+  
+  @media (min-width: 1024px) { /* Para telas grandes e acima */
+    .img-custom-size-burguer {
+      width: 20rem;
+      height: 18rem;
+    }
+  }
